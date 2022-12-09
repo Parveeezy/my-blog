@@ -1,0 +1,18 @@
+html{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/images/Text-Book-Background.png');
+  background-size: cover;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
