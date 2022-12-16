@@ -7,15 +7,10 @@ import {
     PostWrapper
 } from "./component";
 import NewPostForm from "./NewPostForm/NewPostForm";
-import {useSelector} from "react-redux";
 
-type StatePostsType = {
-    
-}
 
 const Post = () => {
 
-    const posts = useSelector((state) => state.posts);
 
     return (
         <>
@@ -23,7 +18,7 @@ const Post = () => {
                 <PostTitle>
                     Hello world
                 </PostTitle>
-                <PostAddButton onClick={onOpenNewPostForm}>
+                <PostAddButton>
                     +
                 </PostAddButton>
             </PostsTitleAddBlock>
