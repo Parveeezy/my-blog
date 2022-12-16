@@ -22,6 +22,6 @@ export const postsSlice = createSlice({
     name: 'posts',
     initialState,
     reducers: {
-        posts:
+
     }
 })
